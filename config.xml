@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ga.designernoturno.store" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Designer Noturno</name>
+    <description>Apresenta a combinação perfeita entre ilustração e moda - Designer por Hariel Cavalcante.</description>
+    <author email="isaiaswebnet@gmail.com" href="http://skynetsites.com.br">Isaías Oliveira</author>
+    <content src="index.html" />
+    <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-device-orientation" spec="~1.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.1.2" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+        <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
+        <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
+        <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <preference name="AppName" value="Designer Noturno" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="target-device" value="iphone" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>
