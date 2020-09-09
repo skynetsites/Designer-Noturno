@@ -20,7 +20,7 @@
          
          function onOnline() {
              console.log("onOnline");
-             ref = window.open('home.html', '_self');
+             ref = cordova.InAppBrowser.open('https://wodan.com.br/tutormaq/', '_blank', 'location=no');
              ref.addEventListener("exit", function(event) {navigator.notification.confirm('Você deseja sair do aplicativo?', onBackButton, 'Fique Conosco', ['NÃO','SIM']); }, false);
              if(ref) {
              	ocument.getElementById("loader-wrapper").style.display = "none";
