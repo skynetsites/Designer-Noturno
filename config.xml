@@ -8,7 +8,7 @@
         skynet Sites
     </author>
     <content src="index.html" />
-	<preference name="AppName" value="TUTORMAQ" />
+    <preference name="AppName" value="TUTORMAQ" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="UIWebViewBounce" value="false" />
