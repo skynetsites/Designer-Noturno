@@ -33,10 +33,13 @@ div {
 </style>
       <!---->
       <script type="text/javascript" charset="utf-8">
+	 
+         setTimeout(function(){
+	 onLoad();     
+	 }, 3000);
+	      
          function onLoad() {
-             setTimeout(function(){
 	     document.addEventListener("online", onOnline, false);
-	      }, 3000);
              document.addEventListener("offline", onOffline, false);
              document.addEventListener("deviceready", onDeviceReady, false);
          }
