@@ -8,13 +8,13 @@
         skynet Sites
     </author>
     <content src="index.html" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
     <preference name="AppName" value="TUTORMAQ" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="17" />
-    <preference name="android-targetSdkVersion" value="17" />
+    <preference name="android-minSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="26" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="Orientation" value="portrait" />
-    <preference name="target-device" value="iphone" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
