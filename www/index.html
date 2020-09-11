@@ -34,9 +34,11 @@ div {
       <!---->
       <script type="text/javascript" charset="utf-8">
 	 
-         setTimeout(function(){
-	 onLoad();     
-	 }, 3000);
+        var app;
+
+	function appLoad() {
+	     app = setTimeout(onLoad, 3000);
+	}
 	      
          function onLoad() {
 	     document.addEventListener("online", onOnline, false);
@@ -76,7 +78,7 @@ div {
          }
       </script>
    </head>
-   <body onload="onLoad()">
+   <body onload="appLoad()">
       <div id="loader"></div>
 	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
    </body>
