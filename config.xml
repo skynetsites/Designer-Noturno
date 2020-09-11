@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.tutomaq.app" version="1.0.0" android-versionCode="28" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.tutomaq.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>TUTORMAQ</name>
     <description>
         A TUTORMAQ é o resultado do sonho de um Brasileiro, nordestino e obstinado, Sr. Antônio Severino de Santana, um homem empreendedor, que não se deixou abater pelas adversidades que encontrou na vida.
@@ -10,7 +10,8 @@
     <content src="index.html" />
     <preference name="AppName" value="TUTORMAQ" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="28" />
+    <preference name="android-minSdkVersion" value="17" />
+    <preference name="android-targetSdkVersion" value="17" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="Orientation" value="portrait" />
     <preference name="target-device" value="iphone" />
