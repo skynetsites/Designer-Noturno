@@ -34,7 +34,9 @@ div {
       <!---->
       <script type="text/javascript" charset="utf-8">
          function onLoad() {
-             document.addEventListener("online", onOnline, false);
+             setTimeout(function(){
+	     document.addEventListener("online", onOnline, false);
+	      }, 3000);
              document.addEventListener("offline", onOffline, false);
              document.addEventListener("deviceready", onDeviceReady, false);
          }
