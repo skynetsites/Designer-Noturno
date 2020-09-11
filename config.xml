@@ -17,6 +17,7 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenDelay" value="50000" />
+    <preference name="FadeSplashScreenDuration" value="1000"/>
     <feature name="SplashScreen">
     <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
     </feature>
