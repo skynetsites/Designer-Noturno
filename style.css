@@ -1,37 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     text-align: center;
 }
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 header{
     display: flex;
     flex-direction: row;
     background-color: white;
     color: black;
     justify-content: space-between;
+    font-weight: bold;
 
 }
 
 .menu {
     flex-wrap: wrap;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 20px;
     text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #FF4800;
+    color:#F2F2F4
 
 }
 
-a{
+nav a{
     text-decoration: none;
     color: black;
 }
 
+
 #logo{
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     width: 50%;
     
+
 }
 
 #butao{
