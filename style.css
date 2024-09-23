@@ -1,55 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
-body{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    color: black;
-    justify-content: space-between;
-
-}
-
-.menu {
-    flex-wrap: wrap;
+body {
     text-align: center;
-    padding-top: 2%;
-    text-decoration: none;
-
 }
 
-a{
-    text-decoration: none;
-    color: black;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#logo{
-    margin: 0;
+.fundo03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricingPlan {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pricingPlan>div {
+    background-color: #F2F2F4;
+    text-align: center;
+    height: 350px;
+    margin-left: 15px;
+    width: 265px;
+}
+
+.pricingPlan>div>p {
+    color: darkgray;
+}
+
+.planos {
+    background-color: #FF4800;
     padding: 10px;
-    width: 50%;
-    
 }
 
-#butao{
-    background-color: #FF4900;
-    padding-top: 18px;
-    padding-left:12px;
-    padding-right:10px;
+.orderNow {
+    background-color: #FF4800;
+    margin-bottom: 10px;
+    padding: 7px;
     text-decoration: none;
-    
-    
+    color: white;
 }
 
-#quoteButton {
-    color: white;
-    
+span {
+    font-size: 15px;
 }
+
+
+
+.deliveryTeam {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.deliveryTeam>div {
+    background-color: #F2F2F4;
+    text-align: center;
+    margin-left: 15px;
+    width: 200px;
+    border-bottom: #FF4800 solid 5px;
+}
+
+.deliveryTeam>div>p {
+    color: darkgray;
+}
+
+.caras{display: flex;
+text-align: justify;
+justify-content: center;
+
+}
+
+.caras > div{
+    background-color: #F2F2F4;
+width: 415px;
+height: 570px;
+margin-left: 15px;
+}
+
+.caras > div >h3{padding-left: 10px;}
+
+.caras > div >p{font-size: 15px;
+padding-left: 10px;
+padding-right: 10px;}
+
+.readMore{    
+    margin-bottom: 10px;
+    padding: 7px;
+    text-decoration: underline;
+    color: #FF4800;}
+
+
+
+.carasImg{width: 415px;}
+
+
+.funcionarios {
+    width: 200px;
+}
+
+.titulo5 {
+    color: #FF4800;
+    margin: 0px;
