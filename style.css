@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+
+}
+
+.menu {
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    
+}
+
+#butao{
+    background-color: #FF4900;
+    padding-top: 18px;
+    padding-left:12px;
+    padding-right:10px;
+    text-decoration: none;
+    
+    
+}
+
+#quoteButton {
+    color: white;
+    
+}
