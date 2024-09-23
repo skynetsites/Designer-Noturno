@@ -6,6 +6,125 @@ body {
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+
+}
+
+.menu {
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    
+}
+
+#butao{
+    background-color: #FF4900;
+    padding-top: 18px;
+    padding-left:12px;
+    padding-right:10px;
+    text-decoration: none;
+    
+    
+}
+
+#quoteButton {
+    color: white;
+    
+}
+article{
+    padding-left: 10%;
+    background-color: rgb(218, 214, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.legenda{
+
+    height: 30px;
+}
+#primTitulo{
+    color: orangered;
+    font-size: 15px;
+}
+#segTitulo{
+    font-size: 40px;
+}
+#legPrincipal{
+    width: 580px;
+    
+}
+.dados{
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;   
+}
+#dados2{
+    padding-left: 10%;
+}
+#dados3{
+    padding-left: 10%;
+}
+div h1{
+    font-size: 180%;
+    margin-bottom: 0;
+}
+#obsDados{
+    margin-top: 10%;
+
+}
+#numerosDados{
+    color: orangered;
+    font-size: 35px;
+}
+.credenciais{
+    background-color: orangered;
+    display: inline-block;
+    width: 400px;
+    height: 200%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#nome{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#servico{
+    width: 308px;
+    height: 45px;
+}
+#button{
+    color: white;
+    background-color: black;
+    width: 308px;
+    height: 45px;
+    font-size: 15px;
+}
 
 .fundo03 {
     display: flex;
@@ -105,3 +224,103 @@ padding-right: 10px;}
 .titulo5 {
     color: #FF4800;
     margin: 0px;
+}
+footer{
+    background-color: #1F1F2E;
+    
+    
+}
+.sessao1{
+    display: flex;
+    justify-content: space-between;
+}
+.getInTouch{
+    margin-left: 50px;
+}
+.redeSocial{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    width: 40px;
+}
+
+.quickyLinks{
+    padding-right: 150px;
+    
+}
+.getImg{
+    width: 30px;
+    float: left;
+}
+::placeholder{
+    padding: 20px;
+}
+
+.sessao1 div li{
+    color: #fff;
+}
+.sessao1 div p{
+    color: #fff;
+}
+
+.sessao1 h3{
+    color: orangered;
+}
+.sessao1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.sessao1 div input{
+    margin-right: 0px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    
+}
+
+.sessao2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+.sessao2 p ,a{
+    color: #fff;
+}
+span{
+    color: orangered;
+}
+.linksFundo a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+.p{
+    width: 400px;
+}
+#singUp{
+    background-color: orangered;
+    height: 600px;
+    color: #fff;
+}
+
+
+.botaoAddress{
+    background-color: #fff;
+    margin: 0px;
+
+}
+.botaoAddress a{
+    background-color: #FF4800;
+    padding: 12px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+#address{
+    outline: none;
+    border: 0px;
+}
