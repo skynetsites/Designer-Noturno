@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+article{
+    padding-left: 10%;
+    background-color: rgb(218, 214, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.legenda{
+
+    height: 30px;
+}
+#primTitulo{
+    color: orangered;
+    font-size: 15px;
+}
+#segTitulo{
+    font-size: 40px;
+}
+#legPrincipal{
+    width: 580px;
+    
+}
+.dados{
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;   
+}
+#dados2{
+    padding-left: 10%;
+}
+#dados3{
+    padding-left: 10%;
+}
+div h1{
+    font-size: 180%;
+    margin-bottom: 0;
+}
+#obsDados{
+    margin-top: 10%;
+
+}
+#numerosDados{
+    color: orangered;
+    font-size: 35px;
+}
+.credenciais{
+    background-color: orangered;
+    display: inline-block;
+    width: 400px;
+    height: 200%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#nome{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#servico{
+    width: 308px;
+    height: 45px;
+}
+#button{
+    color: white;
+    background-color: black;
+    width: 308px;
+    height: 45px;
+    font-size: 15px;
+}
